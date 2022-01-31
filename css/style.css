@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    height:80px ;
+    
+      
+    
+ }
+
+header{
+    background-color:rgb(255, 165, 0);
+    height:130px ;
+}
+
+.container-grid{
+    width:1200px ;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.menu{
+    width:660px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    height:400px;
+    background-image:url(../imagens/banner.png) ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+     
+}
+
+.secao-conteudo{
+    background-color: blueviolet;
+    height:300px;     
+
+}
+
+.secao-conteudo{
+    display: flex;
+    padding:20px ;
+    font-weight: bold;
+    color: white;
+    font-size:30px ;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
+ .texto a{
+     color:white ;
+     text-decoration: none;
+     font-family:'Roboto', sans-serif;
+     font-size:20px ;
+     background-color: red;
+     border-radius:5px ;
+     padding:15px ;
+ }  
+    
+
+
+/* .conteudo img{ */
+    
+    .conteudo img{
+        width:500px ;
+        height:200px ;
+    }
+
+    .secao-galeria{
+        background-color:blueviolet
+    }
+    
+    .galeria{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        padding:30px ;
+        color: white;
+        padding: 20px;
+        font-weight: bold;
+        font-size:30px ;
+ 
+    }
+
+    .secao-fotos{
+        background-color:blueviolet;
+        height:300px ;
+    }
+
+    .fotos img{
+        padding:15px ;
+        width:270px ;
+        height:160px ;
+        align-content: space-between;
+       
+        
+    }
+
+
+ /* . configuração de barras */
+.barras{
+    width:30px ;
+    display: none;
+}
+
+.posicionamento-header{
+    position: relative;
+
+}
+
+  @media screen and (max-width:1200px){
+      .container-grid{
+          width:80% ;
+      }
+  }
+
+  menu a{
+      font-size:8px ;
+  }
+
+
+  .logo{
+      width:200px ;
+  }
+
+  @media screen and (max-width:768px){
+      h1{
+          color: crimson;
+      }
+      .barras{
+        width:30px ;
+        display:inline-block
+    }
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        width:250px;
+        position: absolute;
+        top:0 ;
+        right:60px ;
+    }
+         
+
+  .menu a{
+      text-align: center;
+      padding: 30px;
+      
+  }
+
+}
+
+/* .remoto 2 */
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+ 
+         
+
