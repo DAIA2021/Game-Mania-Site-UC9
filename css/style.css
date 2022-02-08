@@ -58,12 +58,14 @@ header{
 
 .secao-conteudo{
     display: flex;
-    padding:20px ;
     font-weight: bold;
     color:blue;
     font-size:15px ;
     text-transform: uppercase;
-    justify-content: center;
+    padding:10px ;
+    
+    
+    
 }
 
 
@@ -72,8 +74,14 @@ header{
      text-decoration: none;
      font-family:Arial, Helvetica, sans-serif;
      display: flex;
-     justify-content: end;
-     color: bisque;   
+     background-color:blue;
+     padding:20px ;
+     border-radius:10px;
+     width:150px ;
+     height:55px ;
+     padding:10px ;
+     
+       
      
  }
     
@@ -93,9 +101,9 @@ header{
         display: flex;
         justify-content: center;
         text-transform: uppercase;
-        padding:30px ;
+        padding:20px ;
         color: blue;
-        padding: 25px;
+        padding: 30px;
         font-weight: bold;
         font-size:20px ;
  
@@ -109,7 +117,8 @@ header{
     
     .fotos img{
         width: 200px;
-        height:220px;  
+        height:220px; 
+        
           
     }
 
@@ -117,7 +126,7 @@ header{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        /* text-align: center; */
+        
     }
 
     .jogo p{
@@ -129,36 +138,93 @@ header{
 
     .jogo h3{
         text-align: center;
+        
     }
 
     .imagem{
         display:flex;
-        /* justify-content: center; */
+        justify-content: center;
         justify-content: space-between;
         justify-content: space-around;
     }
-   
-    /* .imagem h3,p{
-        display: flex;
-        justify-content: right;
-    
-         */
-    /* } */
 
-
-
-    .rodape{
-        font-size:15px ;
-        height:330px ;
-        background-color:blue;
-        display: flex;
-        margin-top:5px;
-        margin: auto;
-        justify-content: space-between;
-        align-items: center;
-    
+    footer{
+        
     }
-    
+   
+     .rodape{
+      height:490px ;  
+      display: flex; 
+      justify-content: space-between;
+      background-color:bisque;
+      
+      
+      
+    }  
+     .link{
+         color: blue;
+     }
+     .link h2{
+         font-size:15px ;
+     }
+
+     .link a{
+         color:blue;
+         text-decoration: none;
+         font-size:10px ;
+     }
+
+     .secao-redes h2{
+         color:blue;
+         font-size:15px ;
+
+     }
+     .secao-redes img{
+         width:120px ;
+         height:40px ;
+     }
+    .pagamento h2{
+        color:blue ;
+        font-size:15px ;
+
+    }
+    .pagamento img{
+        width:140px ;
+        height:50px ;
+    }
+   .caixa h2{
+       color:blue ;
+       font-size:15px ;
+   }
+   .caixa form{
+       font: size 10px; 
+
+      
+   }
+
+   /* ---------- */
+   .caixa input[type="e-mail"]{
+       height:5px ; 
+       width:50px ;
+    } 
+   
+
+   .caixa input[type="e-mail"]::placeholder{
+       color: brown;      
+       font-weight: bold;
+   }
+
+   /* ------------ */
+    button{
+       width:100px ;
+       color: cornsilk;
+       background-color: blue;
+       border:none ;
+       font-size:13px ;
+   }
+
+   
+
    
 
 

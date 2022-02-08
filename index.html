@@ -12,7 +12,7 @@
 </head>
 </head>
 
-<body>
+<body onload="mostrarPopup()">
 
     <header>
         <div class="container-grid posicionamento-header">
@@ -75,11 +75,20 @@
                     <h3>Xbox</h3>
                     <p>500,00</p>
                 </div>
+               
                 <div class="jogo">
                     <a href=""><img src="imagens/cadeira.jpg" alt=""></a>
                     <h3>Cadeira</h3>
                     <p>250,00</p>
                 </div>
+                <div class="jogo">
+                    <a href=""><img src="imagens/fone.jpg" alt=""></a>
+                    <h3>PS3</h3>
+                    <p>1,00</p>
+
+                </div>
+
+
             </div>
 
         </div>
@@ -88,29 +97,42 @@
     </section>
 
     <footer>
-        <div class="rodape ">
-            <div class="links-footer container-grid ">
+        <div class="rodape  ">
+            <div class="link-footer container-grid">
 
-                <div class="lista">
-                    <p>Listas</p>
+                <div class="link">
+                    <h2>Suporte</h2>
                     <ul>
-                        <li><a href="">contato</a></li>
-                        <li><a href="">suporte</a></li>
+                        <li><a href="#">Telefone</a></li>
+                        <li><a href="#">Chat</a></li>
+                        <li><a href="#">Reclamações</a></li>
+                        <li><a href="#">Privacidade</a></li>
                     </ul>
                 </div>
-                <div class="paginas">
-                    <p>REDES</p>
+                <div class="link">
+                    <h2>Informações</h2>
                     <ul>
-                        <li><a href="">TESTE</a></li>
-                        <li><a href="">TESTE2</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">E-mail</a></li>
+                        <li><a href="#">Localização</a></li>
+                        <li><a href="#">produtos</a></li>
                     </ul>
                 </div>
+                <div class="secao-redes">
+                    <h2>Redes Sociais</h2>
+                    <img src="imagens/REDES SOCIAIS.png" alt="">
+                </div>
+                <div class="pagamento">
+                    <h2>Formas de pagamento</h2>
+                    <img src="imagens/Fpagamento.png" alt="">
 
-                <div class="sociais">
-                    <p>faça parte do clan</p>
+                </div>
+
+                <div class="caixa">
+                    <h2>Cadastre aqui seu e-mail</h2>
                     <form action="">
-                        <input type="email" placeholder="E-mail">
-                        <button>Cadastrar</button>
+                        <input id="campo-email" type="email" placeholder="E-mail" required>
+                        <button onclick="enviarEmail()">Cadastrar</button>
                     </form>
 
                 </div>
