@@ -41,13 +41,20 @@ header{
     justify-content: space-between;
 }
 
-.banner{
-    height:380px;
+.secao-banner{
+    height:500px;
     background-image:url(../imagens/banner.png) ;
     background-repeat: no-repeat;
-    background-size:cover ;
-    
-     
+    background-size:cover ; 
+
+}
+
+#carrosel img{
+    display: none;
+}
+
+.banner-ativo{
+    display: flex;
 }
 
 .secao-conteudo{
@@ -63,9 +70,7 @@ header{
     font-size:15px ;
     text-transform: uppercase;
     padding:10px ;
-    
-    
-    
+      
 }
 
 
@@ -80,8 +85,7 @@ header{
      width:150px ;
      height:55px ;
      padding:10px ;
-     
-       
+          
      
  }
     
@@ -111,119 +115,107 @@ header{
 
     .secao-fotos{
         background-color:rgb(137, 173, 206);
-        height:500px ; 
+        height:300px ;
     }
- 
     
-    .fotos img{
-        width: 200px;
-        height:220px; 
-        
-          
-    }
-
-    .jogo{
+    .fotos{
         display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        
-    }
-
-    .jogo p{
-        text-align: center;
-        align-items: flex-end;
-        justify-content: right;
-        
-    }
-
-    .jogo h3{
-        text-align: center;
-        
-    }
-
-    .imagem{
-        display:flex;
-        justify-content: center;
         justify-content: space-between;
         justify-content: space-around;
     }
 
-    footer{
+
+    .fotos img{
+        width: 200px;
+        height:230px; 
+        padding:20px;
         
+          
     }
-   
-     .rodape{
-      height:490px ;  
-      display: flex; 
-      justify-content: space-between;
-      background-color:bisque;
-      
-      
-      
-    }  
-     .link{
-         color: blue;
-     }
-     .link h2{
-         font-size:15px ;
-     }
 
-     .link a{
-         color:blue;
-         text-decoration: none;
-         font-size:10px ;
-     }
-
-     .secao-redes h2{
-         color:blue;
-         font-size:15px ;
-
-     }
-     .secao-redes img{
-         width:120px ;
-         height:40px ;
-     }
-    .pagamento h2{
-        color:blue ;
+    
+    .valor{
+        display: flex;
+        justify-content: space-between;  
+        padding:140px ;
         font-size:15px ;
-
     }
-    .pagamento img{
-        width:140px ;
-        height:50px ;
+    .valor p{
+        color:white;
+        font-weight: bold;
     }
-   .caixa h2{
-       color:blue ;
-       font-size:15px ;
-   }
-   .caixa form{
-       font: size 10px; 
+    
+   
+    .secao-rodape{
+      background-color:rgb(137, 173, 206);
+      height:350px ;
+      margin-top:2px ;
+      
+      
+      }
 
       
-   }
 
-   /* ---------- */
-   .caixa input[type="e-mail"]{
-       height:5px ; 
-       width:50px ;
-    } 
-   
+     .rodape{
+          display: flex;
+          justify-content: space-between;
+          
+      }
 
-   .caixa input[type="e-mail"]::placeholder{
-       color: brown;      
-       font-weight: bold;
-   }
+   .informativos h2{
+          font-size:15px;
+          justify-content: space-between;
+          color:blue;
+      }
 
-   /* ------------ */
+      .informativos p{
+          color:white;
+      }
+      
+     .caixa h2{
+          font-size:15px ;
+          color: blue;
+      }
+
+      .redes h2{
+          color: blue;
+          font-size:15px ;
+      }
+
+   .caixa form{
+            font-size:13px ;
+        }
+        /* -----Não funcionou função  */
+
+    .caixa input[type="e-mail"]{
+            height:10px ; 
+            width:50px ;
+         } 
+        
+        /* -----Não funcionou função  */
+    .caixa input [type="e-mail"]::placeholder{
+            color: brown;      
+            font-weight: bold;
+        }
+     
     button{
-       width:100px ;
-       color: cornsilk;
-       background-color: blue;
-       border:none ;
-       font-size:13px ;
-   }
+    width:100px ;
+    color: cornsilk;
+    background-color: blue;
+    border:none ;
+    font-size:13px ;
+     }
+        
+     
+    
+   
+ 
 
    
+   
+
+
+    
 
    
 
@@ -260,13 +252,13 @@ header{
       }
       .barras{
         width:30px ;
-        display:inline-block
+        display:inline-block;
     }
 
     .menu{
         display: none;
         flex-direction: column;
-        width:250px;
+        width:220px;
         position: absolute;
         top:0 ;
         right:60px ;
@@ -278,10 +270,32 @@ header{
       padding: 30px;
       
   }
+  
+  .posicionamento-header{
+      position: relative;
+  }
 
-}
+  .menu-ativo{
+      display:flex ;
+  }
 
-/* .remoto 2 */
+  
+  }
+
+/* -----final da conf 768 {} */
+    
+/* aula rewmota 2 */
+
+
+
+/* jquery aula 3 */
+
+/* .menu-ativo{
+display:flex ;
+} */
+
+  
+
 
 
 
