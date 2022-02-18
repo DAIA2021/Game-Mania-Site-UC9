@@ -13,27 +13,28 @@ function enviarEmail(){
 
 // jquery...
 
-$(document).ready(function(){
+ $(document).ready(function(){
 
-   $("#barras").click(function(){
+    $("#barras").click(function(){
        if($("#menu").hasClass("#menu-ativo")){
-           $("#menu").removeClass("#menu-ativo")
+         $("#menu").removeClass("#menu-ativo")
        }else{
            $("#menu").addClass("menu-ativo")
        }
-   })
+    })
      
-})
+ })
+ 
     
 //    {) fechamento da função abertura ( antes da function
 
-// $(document).ready(function(){
+ //$(document).ready(function(){
 
-//     $("#barras").click(function(){
-//         $("#menu").toggleClass("#menu-ativo") 
+ //   $("#barras").click(function(){
+ //       $("#menu").toggleClass("#menu-ativo") 
 
-// })
-// })
+//})
+//})
 
 
 // criação função carrosel
@@ -44,6 +45,7 @@ $(document).ready(function(){
 })
 
 setInterval(slide,1000)
+
 function slide(){
     
     if($(".banner-ativo").next().length){
@@ -55,4 +57,20 @@ function slide(){
     }
 }
 
+
+//login funcionalidades
+
+let email= document.getElementById("campo-email");
+
+
+function enviarEmail(){
+    let emailDigitado = email.Value;
+    console.log (emailDigitado)
+}
    
+let senha= document.getElementById("campo-senha");
+
+function enviarSenha(){
+    let senhaDigitado = senha.valeu;
+    console.log(senhaDigitado)
+}
