@@ -41,14 +41,14 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
+/* 
 .secao-banner{
     height:400px;
     background-image:url(../imagens/banner.png) ;
     background-repeat: no-repeat;
     background-size:cover ; 
 
-}
+} */
 
 #carrosel img{
     display: none;
@@ -297,10 +297,6 @@ header{
 /* .menu-ativo{
 display:flex ;
 } */
-
-  
-
-  
     
     
 
