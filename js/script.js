@@ -12,6 +12,7 @@
            }
         })
     
+
         $("#carrosel img:eq(0)").addClass("banner-ativo").show()
     
         setInterval(slide, 1000)
@@ -65,6 +66,6 @@
     let senhalogin = document.getElementById("campo-senha");
     
     function enviarSenha(){
-        let senhaDigitado = senhalogin.valeu;
+        let senhaDigitado = senhalogin.Value;
         console.log(senhaDigitado)
     }

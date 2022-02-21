@@ -56,6 +56,8 @@ header{
 
 .banner-ativo{
     display: flex;
+    width:100% ;
+    height:440px ;
 }
 
 .secao-conteudo{
@@ -194,7 +196,7 @@ header{
             
 
     .caixa input[type="email"]{
-       width:180px ;
+       width:150px ;
          } 
         
         
@@ -204,7 +206,7 @@ header{
         }
      
     button{
-    width:140px ;
+    width:120px ;
     color:white;
     background-color: blue;
     border:none ;
@@ -276,27 +278,72 @@ header{
       padding:40px;     
     }
 
-    /* .posicionamento-header{
-        position: relative;
-    } */
-  
-
     .menu-ativo{
       display:flex ;
     }
-  }
 
-/* -----final da conf 768 {} */
+    .secao-conteudo{
+        width:100% ;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-left:50px ;
+        font-size:12px ;
+
+    }
+    .secao-conteudo img{
+        display: none;
+    }
+
+    .secao-conteudo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: end;
+        width:25%;
+        margin:0 auto ;
+        font-size:10px ;  
+    }
+    .galeria{
+        font-size:15px ;
+    }
+
+       
     
-/* aula rewmota 2 */
+
+    .fotos img{
+       display: flex;
+       width: 50px;
+       flex-direction: row; 
+
+      
+       
+       
+        
+     }
+
+     .valor{
+         display: none;
+     }
+
+    
+    .rodape{
+        width:100% ;
+        font-size:13px ;
+        justify-content: space-around;
+        margin-bottom: auto;
+    }
+    .caixa{
+        display:none;
+        
+    }   
+
+    }
+    
+  
 
 
-
-/* jquery aula 3 */
-
-/* .menu-ativo{
-display:flex ;
-} */
     
     
 
